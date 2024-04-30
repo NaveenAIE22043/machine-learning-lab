@@ -95,7 +95,7 @@ class DecisionTree:
         return predictions
 
 # Example use case
-data = pd.read_excel("your_dataset.xlsx")
+data = pd.read_excel("customer.xlsx")
 
 # Binning a continuous feature
 data["binned_feature"] = bin_continuous(data, "your_continuous_feature", num_bins=5, bin_type='equal_width')
